@@ -1,0 +1,25 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist&&set NODE_ENV=production&&webpack",
+    "dev": "set NODE_ENV=development&&node dev-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/Alaboudi1/todo.git",
+  "author": "Abdualziz Alaboudi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alaboudi1/todo/issues"
+  },
+  "homepage": "https://github.com/Alaboudi1/todo#readme",
+  "devDependencies": {
+    "eslint": "^3.14.1",
+    "rimraf": "^2.5.4",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "2.2.0"
+  },
+  "dependencies": {}
+}
